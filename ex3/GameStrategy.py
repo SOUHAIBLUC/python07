@@ -1,0 +1,21 @@
+from abc import ABC, abstractmethod
+from typing import Dict, List
+
+
+class GameStrategy(ABC):
+    """Abstract strategy interface for game turn execution."""
+
+    @abstractmethod
+    def execute_turn(self, hand: list, battlefield: list) -> dict:
+        """Execute a game turn given hand and battlefield state."""
+        pass
+
+    @abstractmethod
+    def get_strategy_name(self) -> str:
+        """Return the name of this strategy."""
+        pass
+
+    @abstractmethod
+    def prioritize_targets(self, available_targets: list) -> list:
+        """Return targets ordered by priority."""
+        pass
