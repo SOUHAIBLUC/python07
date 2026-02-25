@@ -29,11 +29,6 @@ def main() -> None:
     print(f"Playable: {fire_dragon.is_playable(low_mana)}")
 
     print("\nAbstract pattern successfully demonstrated!")
-    print(
-        "How do abstract base classes ensure consistency across different"
-        " card types? What happens if you try to create a Card directly"
-        " without implementing required methods?"
-    )
 
 
 if __name__ == '__main__':

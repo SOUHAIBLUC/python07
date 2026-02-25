@@ -32,10 +32,6 @@ def main() -> None:
     print(
         "\nPolymorphism in action: Same interface, different card behaviors!"
     )
-    print(
-        "How does polymorphism enable the Deck to work with any card type?"
-        " What are the benefits of this design pattern for card game systems?"
-    )
 
 
 if __name__ == '__main__':

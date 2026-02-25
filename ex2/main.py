@@ -33,10 +33,6 @@ def main() -> None:
     print(f"Mana channel: {arcane_warrior.channel_mana(3)}")
 
     print("\nMultiple interface implementation successful!")
-    print(
-        "How do multiple interfaces enable flexible card design?"
-        " What are the advantages of separating combat and magic concerns?"
-    )
 
 
 if __name__ == '__main__':

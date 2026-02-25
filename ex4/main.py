@@ -54,11 +54,6 @@ def main() -> None:
 
     print("\n=== Tournament Platform Successfully Deployed! ===")
     print("All abstract patterns working together harmoniously!")
-    print(
-        "How does multiple inheritance allow a class to implement several"
-        " interfaces? What are the benefits of combining ranking capabilities"
-        " with card game mechanics?"
-    )
 
 
 if __name__ == '__main__':
